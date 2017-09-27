@@ -6,9 +6,10 @@ window.onload=function(){
 
 // parent.createElement("child");
 
+let body = document.getElementsByTagName('body')[0];
 let h1=document.createElement("h1");
       h1.innerHTML="Welcome";
 
-      document.appendChild(h1)
+      body.appendChild(h1)
 
 }
